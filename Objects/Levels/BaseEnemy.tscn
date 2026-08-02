@@ -15,20 +15,20 @@ hitbox_name = "CollisionShape2D"
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mvstq"]
 size = Vector2(20, 16)
 
-[node name="Enemy" type="StaticBody2D" unique_id=1644409886]
+[node name="Enemy" type="StaticBody2D" unique_id=1529676062]
 script = ExtResource("1_sr5re")
 
-[node name="HealthComponent" parent="." unique_id=1050282245 instance=ExtResource("1_cy6fi")]
+[node name="HealthComponent" parent="." unique_id=2012669284 instance=ExtResource("1_cy6fi")]
 max_value = 6.0
 enemy = true
 
-[node name="AttackComponent" parent="." unique_id=1251726309 node_paths=PackedStringArray("hitboxes") instance=ExtResource("2_ma02d")]
+[node name="AttackComponent" parent="." unique_id=1475161333 node_paths=PackedStringArray("hitboxes") instance=ExtResource("2_ma02d")]
 hitboxes = NodePath("..")
 enemy = true
 initial_attack = "Main"
 attacks = Array[ExtResource("4_mfmwy")]([SubResource("Resource_hffvk")])
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1111146483]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1717982716]
 shape = SubResource("RectangleShape2D_mvstq")
 
 [connection signal="damaged" from="HealthComponent" to="." method="_on_health_component_damaged"]
