@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://2kanj7crlbl5"]
+[gd_scene format=3 uid="uid://2kanj7crlbl5"]
 
 [ext_resource type="Script" uid="uid://4xsybhxrghgq" path="res://Scripts/Objects/Characters/PlayerSkin.gd" id="1_qcc0a"]
 [ext_resource type="AudioStream" uid="uid://dcy2jbwfd2no" path="res://Audio/SFX/Characters/CharHurt.wav" id="4_gtq3p"]
@@ -9,36 +9,36 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_d8cwk"]
 size = Vector2(20, 65)
 
-[node name="Character" type="Node2D" node_paths=PackedStringArray("attack_animation_player", "attack_function_callback_node")]
+[node name="Character" type="Node2D" unique_id=1465985098 node_paths=PackedStringArray("attack_animation_player", "attack_function_callback_node")]
 script = ExtResource("1_qcc0a")
 attack_animation_player = NodePath("AnimationPlayer")
 attack_function_callback_node = NodePath(".")
 
-[node name="Body" type="AnimatedSprite2D" parent="."]
+[node name="Body" type="AnimatedSprite2D" parent="." unique_id=149320899]
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1533200173]
 
-[node name="Collision" type="CollisionShape2D" parent="."]
+[node name="Collision" type="CollisionShape2D" parent="." unique_id=565185282]
 position = Vector2(0, -5.5)
 shape = SubResource("RectangleShape2D_d8cwk")
 
-[node name="Hitboxes" type="Node2D" parent="."]
+[node name="Hitboxes" type="Node2D" parent="." unique_id=529365941]
 
-[node name="SFX" type="Node" parent="."]
+[node name="SFX" type="Node" parent="." unique_id=1809062728]
 
-[node name="Step" type="AudioStreamPlayer" parent="SFX"]
+[node name="Step" type="AudioStreamPlayer" parent="SFX" unique_id=1941380290]
 stream = ExtResource("14_w8djj")
 bus = &"SFX"
 
-[node name="Roar" type="AudioStreamPlayer" parent="SFX"]
+[node name="Roar" type="AudioStreamPlayer" parent="SFX" unique_id=1875722910]
 stream = ExtResource("15_cfayp")
 bus = &"SFX"
 
-[node name="Hurt" type="AudioStreamPlayer" parent="SFX"]
+[node name="Hurt" type="AudioStreamPlayer" parent="SFX" unique_id=1081303245]
 stream = ExtResource("4_gtq3p")
 bus = &"SFX"
 
-[node name="LevelUp" type="AudioStreamPlayer" parent="SFX"]
+[node name="LevelUp" type="AudioStreamPlayer" parent="SFX" unique_id=2116581336]
 stream = ExtResource("5_dhix0")
 volume_db = 8.0
 bus = &"SFX"

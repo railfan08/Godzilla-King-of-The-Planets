@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3 uid="uid://bliqsom52mx1p"]
+[gd_scene format=3 uid="uid://bliqsom52mx1p"]
 
 [ext_resource type="Texture2D" uid="uid://c0ixfjb2bb5p5" path="res://Sprites/Levels/TestLevel/sky.png" id="1_ugp5p"]
 
@@ -11,7 +11,7 @@ func _ready() -> void:
 	position.x = (resolution_x - size.x) / 2
 "
 
-[node name="Sky" type="TextureRect"]
+[node name="Sky" type="TextureRect" unique_id=1389470384]
 offset_top = 48.0
 offset_right = 427.0
 offset_bottom = 99.0

@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://bvoxqi1x6lk52"]
+[gd_scene format=3 uid="uid://bvoxqi1x6lk52"]
 
 [ext_resource type="PackedScene" uid="uid://camascwoory5h" path="res://Objects/HealthComponent.tscn" id="1_cy6fi"]
 [ext_resource type="Script" uid="uid://cggoo3cl4mpvp" path="res://Scripts/Objects/Enemies/BaseEnemy.gd" id="1_sr5re"]
@@ -8,37 +8,27 @@
 [sub_resource type="Resource" id="Resource_hffvk"]
 script = ExtResource("4_mfmwy")
 name = "Main"
-simple_or_advanced = 0
-other_information = Array[String]([])
 type = 2
 damage_amount = 2.0
 hitbox_name = "CollisionShape2D"
-hurt_time = -1.0
-start_time_offset = 0.0
-animation_name = ""
-animation_name2 = ""
-time_length = -1.0
-reset_animation_before = true
-reset_animation_after = true
-function_name = ""
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mvstq"]
 size = Vector2(20, 16)
 
-[node name="Enemy" type="StaticBody2D"]
+[node name="Enemy" type="StaticBody2D" unique_id=1529676062]
 script = ExtResource("1_sr5re")
 
-[node name="HealthComponent" parent="." instance=ExtResource("1_cy6fi")]
+[node name="HealthComponent" parent="." unique_id=2012669284 instance=ExtResource("1_cy6fi")]
 max_value = 6.0
 enemy = true
 
-[node name="AttackComponent" parent="." node_paths=PackedStringArray("hitboxes") instance=ExtResource("2_ma02d")]
+[node name="AttackComponent" parent="." unique_id=1475161333 node_paths=PackedStringArray("hitboxes") instance=ExtResource("2_ma02d")]
 hitboxes = NodePath("..")
 enemy = true
 initial_attack = "Main"
 attacks = Array[ExtResource("4_mfmwy")]([SubResource("Resource_hffvk")])
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1717982716]
 shape = SubResource("RectangleShape2D_mvstq")
 
 [connection signal="damaged" from="HealthComponent" to="." method="_on_health_component_damaged"]

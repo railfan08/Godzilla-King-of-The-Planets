@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://c1nseuiv0k6ax"]
+[gd_scene format=3 uid="uid://c1nseuiv0k6ax"]
 
 [ext_resource type="PackedScene" uid="uid://bvoxqi1x6lk52" path="res://Objects/Levels/BaseEnemy.tscn" id="1_rx4fb"]
 [ext_resource type="Script" uid="uid://du5tsx1enyo5v" path="res://Scripts/Objects/Enemies/TheEarth/RocketLauncher.gd" id="2_5wmul"]
@@ -94,26 +94,24 @@ _data = {
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cf2pk"]
 size = Vector2(20, 15)
 
-[node name="RocketLauncher" instance=ExtResource("1_rx4fb")]
+[node name="RocketLauncher" unique_id=1548127487 instance=ExtResource("1_rx4fb")]
 script = ExtResource("2_5wmul")
 
-[node name="HealthComponent" parent="." index="0"]
+[node name="HealthComponent" parent="." index="0" unique_id=2012669284]
 max_value = 1.0
 
-[node name="AttackComponent" parent="." index="1"]
+[node name="AttackComponent" parent="." index="1" unique_id=1475161333]
 initial_attack = ""
 attacks = Array[ExtResource("3_2nqwn")]([])
 
-[node name="Sprite2D" type="Sprite2D" parent="." index="2"]
+[node name="Sprite2D" type="Sprite2D" parent="." index="2" unique_id=1665723389]
 position = Vector2(0, -8)
 texture = ExtResource("2_p5nvc")
 hframes = 5
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="3"]
-libraries = {
-"": SubResource("AnimationLibrary_edroy")
-}
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="3" unique_id=1091569372]
+libraries/ = SubResource("AnimationLibrary_edroy")
 
-[node name="CollisionShape2D" parent="." index="4"]
+[node name="CollisionShape2D" parent="." index="4" unique_id=1717982716]
 position = Vector2(0, 0.5)
 shape = SubResource("RectangleShape2D_cf2pk")

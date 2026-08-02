@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://1q6rp0t4rh72"]
+[gd_scene format=3 uid="uid://1q6rp0t4rh72"]
 
 [ext_resource type="Script" uid="uid://d11i1qu332ujy" path="res://Scripts/Objects/Levels/TestLevel/BreakableMountain.gd" id="1_oxw1c"]
 [ext_resource type="Texture2D" uid="uid://c1x100m2wxobm" path="res://Sprites/Levels/TestLevel/GodzillaMoMWilderness.png" id="1_ppbww"]
@@ -13,46 +13,46 @@ size = Vector2(16, 16)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1lues"]
 size = Vector2(16, 24)
 
-[node name="BreakableMountain" type="StaticBody2D"]
+[node name="BreakableMountain" type="StaticBody2D" unique_id=1867922548]
 collision_layer = 2
 script = ExtResource("1_oxw1c")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=529355780]
 position = Vector2(0, -24)
 shape = SubResource("RectangleShape2D_gssje")
 debug_color = Color(0.587198, 0.518021, 0.504798, 0.42)
 
-[node name="TopPart" type="StaticBody2D" parent="."]
+[node name="TopPart" type="StaticBody2D" parent="." unique_id=349175640]
 position = Vector2(1, -36)
 
-[node name="Sprite" type="Sprite2D" parent="TopPart"]
+[node name="Sprite" type="Sprite2D" parent="TopPart" unique_id=778747555]
 texture = ExtResource("1_ppbww")
 region_enabled = true
 region_rect = Rect2(403, 22, 18, 30)
 
-[node name="HealthComponent" parent="TopPart" instance=ExtResource("2_k6k24")]
+[node name="HealthComponent" parent="TopPart" unique_id=1308565538 instance=ExtResource("2_k6k24")]
 max_value = 4.0
 enemy = true
 health_speed = 0.2
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="TopPart"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TopPart" unique_id=1716344913]
 position = Vector2(-1, -4)
 shape = SubResource("RectangleShape2D_mnffa")
 
-[node name="BottomPart" type="StaticBody2D" parent="."]
+[node name="BottomPart" type="StaticBody2D" parent="." unique_id=771067252]
 position = Vector2(1, -14)
 
-[node name="Sprite" type="Sprite2D" parent="BottomPart"]
+[node name="Sprite" type="Sprite2D" parent="BottomPart" unique_id=1694100009]
 texture = ExtResource("1_ppbww")
 region_enabled = true
 region_rect = Rect2(394, 60, 34, 30)
 
-[node name="HealthComponent" parent="BottomPart" instance=ExtResource("2_k6k24")]
+[node name="HealthComponent" parent="BottomPart" unique_id=1596571891 instance=ExtResource("2_k6k24")]
 max_value = 4.0
 enemy = true
 health_speed = 0.2
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="BottomPart"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BottomPart" unique_id=836372282]
 position = Vector2(-1, 2)
 shape = SubResource("RectangleShape2D_1lues")
 

@@ -1,15 +1,15 @@
-[gd_scene load_steps=2 format=3 uid="uid://bi7wq6b7la5ki"]
+[gd_scene format=3 uid="uid://bi7wq6b7la5ki"]
 
 [ext_resource type="Script" uid="uid://bu73pv6am0uoj" path="res://Scripts/Objects/Attacks/AttackComponent.gd" id="1_kmts1"]
 
-[node name="AttackComponent" type="Node2D"]
+[node name="AttackComponent" type="Node2D" unique_id=1682876203]
 script = ExtResource("1_kmts1")
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="Area2D" type="Area2D" parent="." unique_id=1120819421]
 collision_layer = 8
 collision_mask = 9
 
-[node name="TouchDamageArea" type="Area2D" parent="."]
+[node name="TouchDamageArea" type="Area2D" parent="." unique_id=2146585832]
 
-[node name="SFXPlayer" type="AudioStreamPlayer" parent="."]
+[node name="SFXPlayer" type="AudioStreamPlayer" parent="." unique_id=1207045122]
 bus = &"SFX"

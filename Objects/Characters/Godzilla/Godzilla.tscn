@@ -1,4 +1,4 @@
-[gd_scene load_steps=76 format=3 uid="uid://cii02kmoys3xf"]
+[gd_scene format=3 uid="uid://cii02kmoys3xf"]
 
 [ext_resource type="PackedScene" uid="uid://2kanj7crlbl5" path="res://Objects/Characters/BaseSkin.tscn" id="1_oa7ph"]
 [ext_resource type="Script" uid="uid://dy7tqloc3iyy3" path="res://Scripts/Objects/Characters/Godzilla/Main.gd" id="2_1ih3s"]
@@ -20,71 +20,35 @@
 [sub_resource type="Resource" id="Resource_knn82"]
 script = ExtResource("4_1yni8")
 name = "Punch"
-simple_or_advanced = 0
-other_information = Array[String]([])
-type = 0
 damage_amount = 2.0
 hitbox_name = "Punch"
 sfx = ExtResource("5_acixn")
-hurt_time = -1.0
-start_time_offset = 0.0
 animation_name = "Punch1"
 animation_name2 = "Punch2"
-time_length = -1.0
-reset_animation_before = true
-reset_animation_after = true
-function_name = ""
 
 [sub_resource type="Resource" id="Resource_k066a"]
 script = ExtResource("4_1yni8")
 name = "Kick"
-simple_or_advanced = 0
-other_information = Array[String]([])
-type = 0
 damage_amount = 2.0
 hitbox_name = "Kick"
 sfx = ExtResource("5_acixn")
-hurt_time = -1.0
-start_time_offset = 0.0
 animation_name = "Kick1"
 animation_name2 = "Kick2"
-time_length = -1.0
-reset_animation_before = true
-reset_animation_after = true
-function_name = ""
 
 [sub_resource type="Resource" id="Resource_wvdb0"]
 script = ExtResource("4_1yni8")
 name = "TailWhip"
-simple_or_advanced = 0
-other_information = Array[String]([])
-type = 0
 damage_amount = 2.0
 hitbox_name = "TailWhip"
-hurt_time = -1.0
 start_time_offset = 0.16
 animation_name = "TailWhip"
-animation_name2 = ""
-time_length = -1.0
 reset_animation_before = false
 reset_animation_after = false
-function_name = ""
 
 [sub_resource type="Resource" id="Resource_oxhfx"]
 script = ExtResource("4_1yni8")
 name = "HeatBeam"
 simple_or_advanced = 1
-other_information = Array[String]([])
-type = 0
-damage_amount = 0.0
-hitbox_name = ""
-hurt_time = -1.0
-start_time_offset = 0.0
-animation_name = ""
-animation_name2 = ""
-time_length = -1.0
-reset_animation_before = true
-reset_animation_after = true
 function_name = "attack_heat_beam"
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_r5110"]
@@ -193,7 +157,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("6_s5cu2")
 }],
-"loop": true,
+"loop": 1,
 "name": &"Crouch",
 "speed": 5.0
 }, {
@@ -216,7 +180,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_bl620")
 }],
-"loop": true,
+"loop": 1,
 "name": &"HeatBeam",
 "speed": 5.0
 }, {
@@ -233,7 +197,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_l424g")
 }],
-"loop": true,
+"loop": 1,
 "name": &"Hurt",
 "speed": 5.0
 }, {
@@ -262,7 +226,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_5sip1")
 }],
-"loop": true,
+"loop": 1,
 "name": &"Idle",
 "speed": 5.0
 }, {
@@ -273,7 +237,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_7bhqf")
 }],
-"loop": true,
+"loop": 1,
 "name": &"Kick1",
 "speed": 5.0
 }, {
@@ -284,7 +248,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_mgkah")
 }],
-"loop": true,
+"loop": 1,
 "name": &"Kick2",
 "speed": 5.0
 }, {
@@ -298,7 +262,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_6wexl")
 }],
-"loop": true,
+"loop": 1,
 "name": &"TailWhip",
 "speed": 5.0
 }]
@@ -378,7 +342,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_qigo6")
 }],
-"loop": true,
+"loop": 1,
 "name": &"Idle",
 "speed": 5.0
 }, {
@@ -389,7 +353,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_jit7c")
 }],
-"loop": true,
+"loop": 1,
 "name": &"Punch1",
 "speed": 5.0
 }, {
@@ -400,7 +364,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ldpp0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"Punch2",
 "speed": 5.0
 }]
@@ -1003,49 +967,47 @@ size = Vector2(30, 26)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7tuv5"]
 size = Vector2(50, 35)
 
-[node name="Character" instance=ExtResource("1_oa7ph")]
+[node name="Character" unique_id=109619526 instance=ExtResource("1_oa7ph")]
 script = ExtResource("2_1ih3s")
 character_info = ExtResource("3_0nm4j")
 attacks = Array[ExtResource("4_1yni8")]([SubResource("Resource_knn82"), SubResource("Resource_k066a"), SubResource("Resource_wvdb0"), SubResource("Resource_oxhfx")])
 
-[node name="Body" parent="." index="0"]
+[node name="Body" parent="." index="0" unique_id=149320899]
 position = Vector2(-16.5, 8.5)
 sprite_frames = SubResource("SpriteFrames_gkq6k")
 animation = &"Idle"
 
-[node name="Head" type="AnimatedSprite2D" parent="Body" index="0"]
+[node name="Head" type="AnimatedSprite2D" parent="Body" index="0" unique_id=900963558]
 position = Vector2(17, -32)
 sprite_frames = SubResource("SpriteFrames_r8ohj")
 animation = &"Idle"
 
-[node name="AnimationPlayer" parent="." index="1"]
-libraries = {
-&"": SubResource("AnimationLibrary_bqais")
-}
+[node name="AnimationPlayer" parent="." index="1" unique_id=1533200173]
+libraries/ = SubResource("AnimationLibrary_bqais")
 
-[node name="CrouchCollision" type="CollisionShape2D" parent="." index="3"]
+[node name="CrouchCollision" type="CollisionShape2D" parent="." index="3" unique_id=414423656]
 position = Vector2(0, 4.5)
 shape = SubResource("RectangleShape2D_5k7ce")
 
-[node name="Punch" type="CollisionShape2D" parent="Hitboxes" index="0"]
+[node name="Punch" type="CollisionShape2D" parent="Hitboxes" parent_id_path=PackedInt32Array(529365941) index="0" unique_id=1358311584]
 visible = false
 position = Vector2(20, -20)
 shape = SubResource("RectangleShape2D_oucpc")
 
-[node name="Kick" type="CollisionShape2D" parent="Hitboxes" index="1"]
+[node name="Kick" type="CollisionShape2D" parent="Hitboxes" parent_id_path=PackedInt32Array(529365941) index="1" unique_id=1561397770]
 visible = false
 position = Vector2(20, 12)
 shape = SubResource("RectangleShape2D_3r6xg")
 
-[node name="TailWhip" type="CollisionShape2D" parent="Hitboxes" index="2"]
+[node name="TailWhip" type="CollisionShape2D" parent="Hitboxes" parent_id_path=PackedInt32Array(529365941) index="2" unique_id=1148429910]
 visible = false
 position = Vector2(30, 5.5)
 shape = SubResource("RectangleShape2D_7tuv5")
 
-[node name="Punch" type="AudioStreamPlayer" parent="SFX" index="4"]
+[node name="Punch" type="AudioStreamPlayer" parent="SFX" parent_id_path=PackedInt32Array(1809062728) index="4" unique_id=27346283]
 stream = ExtResource("5_acixn")
 bus = &"SFX"
 
-[node name="HeatBeam" type="AudioStreamPlayer" parent="SFX" index="5"]
+[node name="HeatBeam" type="AudioStreamPlayer" parent="SFX" parent_id_path=PackedInt32Array(1809062728) index="5" unique_id=1020194932]
 stream = ExtResource("16_1ih3s")
 bus = &"SFX"

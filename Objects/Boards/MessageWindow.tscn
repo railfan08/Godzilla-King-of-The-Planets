@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://bn3se1dw6cfhu"]
+[gd_scene format=3 uid="uid://bn3se1dw6cfhu"]
 
 [ext_resource type="Script" uid="uid://c62n1enc7kguf" path="res://Scripts/Objects/Boards/MessageWindow.gd" id="1_4muex"]
 [ext_resource type="Texture2D" uid="uid://wmgv6kcqcri0" path="res://Sprites/Levels/BoardSprites.png" id="1_yr4n5"]
@@ -7,7 +7,7 @@
 [sub_resource type="LabelSettings" id="LabelSettings_qwev6"]
 line_spacing = 0.0
 
-[node name="MessageWindow" type="NinePatchRect"]
+[node name="MessageWindow" type="NinePatchRect" unique_id=1227057237]
 offset_right = 32.0
 offset_bottom = 32.0
 texture = ExtResource("1_yr4n5")
@@ -18,7 +18,7 @@ patch_margin_right = 8
 patch_margin_bottom = 8
 script = ExtResource("1_4muex")
 
-[node name="Text" type="Label" parent="."]
+[node name="Text" type="Label" parent="." unique_id=240055685]
 layout_mode = 0
 offset_left = 8.0
 offset_top = 8.0
@@ -30,10 +30,10 @@ label_settings = SubResource("LabelSettings_qwev6")
 autowrap_mode = 2
 uppercase = true
 
-[node name="Choice" type="Node2D" parent="."]
+[node name="Choice" type="Node2D" parent="." unique_id=1023761802]
 position = Vector2(16, 40)
 
-[node name="YesNo" type="Label" parent="Choice"]
+[node name="YesNo" type="Label" parent="Choice" unique_id=1704438874]
 offset_left = 8.0
 offset_right = 158.0
 offset_bottom = 16.0
@@ -44,7 +44,7 @@ label_settings = SubResource("LabelSettings_qwev6")
 autowrap_mode = 2
 uppercase = true
 
-[node name="Selector" type="Sprite2D" parent="Choice"]
+[node name="Selector" type="Sprite2D" parent="Choice" unique_id=1205120911]
 texture = ExtResource("1_yr4n5")
 centered = false
 region_enabled = true

@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://cpxp6boj611rb"]
+[gd_scene format=3 uid="uid://cpxp6boj611rb"]
 
 [ext_resource type="Texture2D" uid="uid://dbjki3nsg35x8" path="res://Sprites/Levels/explosion.png" id="1_t4gnj"]
 [ext_resource type="Script" uid="uid://dm6xq25yiuhx6" path="res://Scripts/Objects/Explosion.gd" id="2_wfcqr"]
@@ -53,13 +53,11 @@ _data = {
 &"animation": SubResource("Animation_pjamu")
 }
 
-[node name="Explosion" type="Sprite2D"]
+[node name="Explosion" type="Sprite2D" unique_id=1014470584]
 top_level = true
 texture = ExtResource("1_t4gnj")
 hframes = 2
 script = ExtResource("2_wfcqr")
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-libraries = {
-"": SubResource("AnimationLibrary_t5kuu")
-}
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1327685757]
+libraries/ = SubResource("AnimationLibrary_t5kuu")

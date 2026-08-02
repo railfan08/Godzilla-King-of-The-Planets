@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://bishkusg7nuhs"]
+[gd_scene format=3 uid="uid://bishkusg7nuhs"]
 
 [ext_resource type="Texture2D" uid="uid://c5trtmb05sfr4" path="res://Sprites/Menus/PassWordGame.png" id="1_lyp2j"]
 [ext_resource type="Script" uid="uid://c1w22bn40knr8" path="res://Scripts/Screens/MainMenu/SaveSlot.gd" id="2_han8w"]
@@ -7,14 +7,14 @@
 [sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_cnspg"]
 size = Vector2(32, 32)
 
-[node name="SaveSlot" type="Control"]
+[node name="SaveSlot" type="Control" unique_id=134918518]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 script = ExtResource("2_han8w")
 
-[node name="Border" type="NinePatchRect" parent="."]
+[node name="Border" type="NinePatchRect" parent="." unique_id=1800578766]
 layout_mode = 0
 offset_right = 192.0
 offset_bottom = 48.0
@@ -25,16 +25,16 @@ patch_margin_top = 8
 patch_margin_right = 8
 patch_margin_bottom = 8
 
-[node name="SaveExists" type="Node2D" parent="."]
+[node name="SaveExists" type="Node2D" parent="." unique_id=102082297]
 
-[node name="PlanetIcon" type="TextureRect" parent="SaveExists"]
+[node name="PlanetIcon" type="TextureRect" parent="SaveExists" unique_id=1576763787]
 offset_left = 152.0
 offset_top = 8.0
 offset_right = 184.0
 offset_bottom = 40.0
 texture = SubResource("PlaceholderTexture2D_cnspg")
 
-[node name="SaveID" type="Label" parent="SaveExists" groups=["option"]]
+[node name="SaveID" type="Label" parent="SaveExists" unique_id=1968476929 groups=["option"]]
 offset_left = 72.0
 offset_top = 16.0
 offset_right = 120.0
@@ -44,7 +44,7 @@ text = "save 1"
 uppercase = true
 metadata/_edit_use_anchors_ = true
 
-[node name="PlanetName" type="Label" parent="SaveExists" groups=["option"]]
+[node name="PlanetName" type="Label" parent="SaveExists" unique_id=404695914 groups=["option"]]
 offset_left = 48.0
 offset_top = 24.0
 offset_right = 144.0
@@ -55,10 +55,10 @@ horizontal_alignment = 1
 uppercase = true
 metadata/_edit_use_anchors_ = true
 
-[node name="DoesntExist" type="Node2D" parent="."]
+[node name="DoesntExist" type="Node2D" parent="." unique_id=1822307644]
 position = Vector2(0, 24)
 
-[node name="SaveID" type="Label" parent="DoesntExist" groups=["option"]]
+[node name="SaveID" type="Label" parent="DoesntExist" unique_id=919508908 groups=["option"]]
 offset_left = 72.0
 offset_top = -8.0
 offset_right = 120.0
@@ -67,7 +67,7 @@ theme_override_fonts/font = ExtResource("3_6dxk1")
 text = "save 1"
 uppercase = true
 
-[node name="Empty" type="Label" parent="DoesntExist" groups=["option"]]
+[node name="Empty" type="Label" parent="DoesntExist" unique_id=1565603767 groups=["option"]]
 offset_left = 72.0
 offset_right = 120.0
 offset_bottom = 16.0

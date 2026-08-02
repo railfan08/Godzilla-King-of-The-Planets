@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://hos7shkktc1k"]
+[gd_scene format=3 uid="uid://hos7shkktc1k"]
 
 [ext_resource type="Texture2D" uid="uid://c1n8vhgw5br0w" path="res://Sprites/Objects/capsules.png" id="1_0f167"]
 [ext_resource type="Script" uid="uid://pqn0sexvus23" path="res://Scripts/Objects/Capsule.gd" id="2_74wkk"]
@@ -65,28 +65,26 @@ _data = {
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4xqf8"]
 size = Vector2(8, 16)
 
-[node name="Capsule" type="Sprite2D"]
+[node name="Capsule" type="Sprite2D" unique_id=750168390]
 texture = ExtResource("1_0f167")
 hframes = 4
 script = ExtResource("2_74wkk")
 
-[node name="SFX" type="AudioStreamPlayer" parent="."]
+[node name="SFX" type="AudioStreamPlayer" parent="." unique_id=1293130312]
 stream = ExtResource("3_eegh8")
 bus = &"SFX"
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-libraries = {
-"": SubResource("AnimationLibrary_cxuko")
-}
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=982163865]
+libraries/ = SubResource("AnimationLibrary_cxuko")
 
-[node name="Timer" type="Timer" parent="."]
+[node name="Timer" type="Timer" parent="." unique_id=1509961587]
 one_shot = true
 autostart = true
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="Area2D" type="Area2D" parent="." unique_id=183197994]
 collision_layer = 2
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=522064075]
 shape = SubResource("RectangleShape2D_4xqf8")
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
