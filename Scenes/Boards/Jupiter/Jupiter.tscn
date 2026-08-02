@@ -4,12 +4,12 @@
 [ext_resource type="AudioStream" uid="uid://dtdevd1wqdmom" path="res://Audio/Soundtrack/Levels/Mars.ogg" id="2_qojmy"]
 [ext_resource type="PackedScene" uid="uid://cavxehselt3he" path="res://Objects/Boards/Piece.tscn" id="5_kbvgg"]
 
-[node name="Board" unique_id=886055136 instance=ExtResource("1_vt5a8")]
+[node name="Board" unique_id=520020967 instance=ExtResource("1_vt5a8")]
 board_name = "Jupiter"
 music = ExtResource("2_qojmy")
 board_id = "jupiter"
 
-[node name="Mothra" parent="Board/Board Icons/Board Pieces" parent_id_path=PackedInt32Array(1104467634) index="1" unique_id=969661307 instance=ExtResource("5_kbvgg")]
+[node name="Mothra" parent="Board/Board Icons/Board Pieces" parent_id_path=PackedInt32Array(388189293) index="1" unique_id=704214004 instance=ExtResource("5_kbvgg")]
 position = Vector2(16, 56)
 region_rect = Rect2(0, 96, 48, 48)
 piece_character = 1

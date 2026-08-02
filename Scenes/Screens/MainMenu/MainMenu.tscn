@@ -10,13 +10,13 @@
 [ext_resource type="PackedScene" uid="uid://dk6nkw1ue84ow" path="res://Scenes/Screens/MainMenu/SoundSettings.tscn" id="6_2krn8"]
 [ext_resource type="PackedScene" uid="uid://dy3m74iswj1v" path="res://Scenes/Screens/MainMenu/Controls.tscn" id="6_u2h2c"]
 
-[node name="MainMenu" unique_id=44647836 instance=ExtResource("1_0ctmj")]
+[node name="MainMenu" unique_id=1214632332 instance=ExtResource("1_0ctmj")]
 music = ExtResource("2_tex8m")
 
-[node name="MenuMain" parent="." index="1" unique_id=1164378782]
+[node name="MenuMain" parent="." index="1" unique_id=944939036]
 script = ExtResource("3_qbfgv")
 
-[node name="NewGame" type="Label" parent="MenuMain" index="0" unique_id=1782016938 groups=["option"]]
+[node name="NewGame" type="Label" parent="MenuMain" index="0" unique_id=1727352988 groups=["option"]]
 offset_left = 72.0
 offset_top = 80.0
 offset_right = 200.0
@@ -25,7 +25,7 @@ theme_override_fonts/font = ExtResource("2_xjjqh")
 text = "new game"
 uppercase = true
 
-[node name="Password" type="Label" parent="MenuMain" index="1" unique_id=1414416962 groups=["option"]]
+[node name="Password" type="Label" parent="MenuMain" index="1" unique_id=1328569892 groups=["option"]]
 offset_left = 72.0
 offset_top = 104.0
 offset_right = 184.0
@@ -34,7 +34,7 @@ theme_override_fonts/font = ExtResource("2_xjjqh")
 text = "pass word game"
 uppercase = true
 
-[node name="Settings" type="Label" parent="MenuMain" index="2" unique_id=1547659120 groups=["option"]]
+[node name="Settings" type="Label" parent="MenuMain" index="2" unique_id=1584838066 groups=["option"]]
 offset_left = 72.0
 offset_top = 128.0
 offset_right = 184.0
@@ -43,7 +43,7 @@ theme_override_fonts/font = ExtResource("2_xjjqh")
 text = "settings"
 uppercase = true
 
-[node name="Credits" type="Label" parent="MenuMain" index="3" unique_id=1149056344 groups=["option"]]
+[node name="Credits" type="Label" parent="MenuMain" index="3" unique_id=1441685297 groups=["option"]]
 offset_left = 72.0
 offset_top = 152.0
 offset_right = 184.0
@@ -52,22 +52,22 @@ theme_override_fonts/font = ExtResource("2_xjjqh")
 text = "credits"
 uppercase = true
 
-[node name="Saves" parent="." index="2" unique_id=1607308775 instance=ExtResource("4_bf7ph")]
+[node name="Saves" parent="." index="2" unique_id=1669030586 instance=ExtResource("4_bf7ph")]
 unique_name_in_owner = true
 visible = false
 
-[node name="Settings" parent="." index="3" unique_id=1041865476 instance=ExtResource("5_jak1r")]
+[node name="Settings" parent="." index="3" unique_id=1178384523 instance=ExtResource("5_jak1r")]
 unique_name_in_owner = true
 visible = false
 
-[node name="Controls" parent="." index="4" unique_id=1275849660 instance=ExtResource("6_u2h2c")]
+[node name="Controls" parent="." index="4" unique_id=1624599547 instance=ExtResource("6_u2h2c")]
 unique_name_in_owner = true
 visible = false
 
-[node name="SoundSettings" parent="." index="5" unique_id=244224803 instance=ExtResource("6_2krn8")]
+[node name="SoundSettings" parent="." index="5" unique_id=1168018 instance=ExtResource("6_2krn8")]
 unique_name_in_owner = true
 visible = false
 
-[node name="VideoSettings" parent="." index="6" unique_id=1411001518 instance=ExtResource("5_w2jg4")]
+[node name="VideoSettings" parent="." index="6" unique_id=87819389 instance=ExtResource("5_w2jg4")]
 unique_name_in_owner = true
 visible = false

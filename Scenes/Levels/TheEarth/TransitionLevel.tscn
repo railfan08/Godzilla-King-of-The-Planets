@@ -12,7 +12,7 @@ gradient = SubResource("Gradient_v0rqx")
 fill_from = Vector2(0, 1)
 fill_to = Vector2(0, 0)
 
-[node name="Level" unique_id=13908133 instance=ExtResource("1_sxqx2")]
+[node name="Level" unique_id=2002079197 instance=ExtResource("1_sxqx2")]
 music = ExtResource("2_gkpwp")
 
 [node name="Floor" parent="." index="2" unique_id=1069161044]

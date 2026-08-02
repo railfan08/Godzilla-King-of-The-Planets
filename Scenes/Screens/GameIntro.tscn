@@ -12,28 +12,28 @@
 [ext_resource type="Script" uid="uid://o7yraeoy2wa7" path="res://Scripts/Screens/GameIntro/EarthInvasion.gd" id="10_srl7t"]
 [ext_resource type="Texture2D" uid="uid://jye2c33udbgd" path="res://Sprites/GameIntro/earthships.png" id="11_8ybc6"]
 
-[node name="GameIntro" type="Node2D" unique_id=1945812179]
+[node name="GameIntro" type="Node2D" unique_id=890121907]
 script = ExtResource("1_gckww")
 music = ExtResource("2_qih6j")
 text_file = "res://Other/GameIntroText.txt"
 next_scene = ExtResource("3_iqns1")
 
-[node name="Bars" type="Node2D" parent="." unique_id=222662126]
+[node name="Bars" type="Node2D" parent="." unique_id=183296633]
 
-[node name="Bar1" type="ColorRect" parent="Bars" unique_id=1301744946]
+[node name="Bar1" type="ColorRect" parent="Bars" unique_id=2104495710]
 offset_right = 40.0
 offset_bottom = 48.0
 color = Color(0, 0.25098, 0.301961, 1)
 metadata/_edit_use_anchors_ = true
 
-[node name="Bar2" type="ColorRect" parent="Bars" unique_id=1810058323]
+[node name="Bar2" type="ColorRect" parent="Bars" unique_id=95716926]
 offset_top = 176.0
 offset_right = 40.0
 offset_bottom = 240.0
 color = Color(0, 0.25098, 0.301961, 1)
 metadata/_edit_use_anchors_ = true
 
-[node name="StoryText" type="Label" parent="Bars" unique_id=1559342856]
+[node name="StoryText" type="Label" parent="Bars" unique_id=1242408693]
 offset_left = 256.0
 offset_top = 192.0
 offset_right = 344.0
@@ -43,86 +43,86 @@ text = "Hello world
 "
 metadata/_edit_use_anchors_ = true
 
-[node name="WidescreenBar1" type="ColorRect" parent="Bars" unique_id=309743405]
+[node name="WidescreenBar1" type="ColorRect" parent="Bars" unique_id=1964857532]
 offset_right = 40.0
 offset_bottom = 40.0
 color = Color(0, 0, 0, 1)
 
-[node name="WidescreenBar2" type="ColorRect" parent="Bars" unique_id=1120054043]
+[node name="WidescreenBar2" type="ColorRect" parent="Bars" unique_id=1367913763]
 offset_right = 40.0
 offset_bottom = 40.0
 color = Color(0, 0, 0, 1)
 
-[node name="Images" type="Node2D" parent="." unique_id=1011766918]
+[node name="Images" type="Node2D" parent="." unique_id=794517822]
 
-[node name="SolarSystem" type="Node2D" parent="Images" unique_id=1418416809]
+[node name="SolarSystem" type="Node2D" parent="Images" unique_id=111347123]
 script = ExtResource("5_b7a6h")
 
-[node name="PlanetMoveTimer" type="Timer" parent="Images/SolarSystem" unique_id=158890264]
+[node name="PlanetMoveTimer" type="Timer" parent="Images/SolarSystem" unique_id=407112342]
 wait_time = 0.8
 autostart = true
 
-[node name="Image" type="Sprite2D" parent="Images/SolarSystem" unique_id=486188081]
+[node name="Image" type="Sprite2D" parent="Images/SolarSystem" unique_id=510665917]
 position = Vector2(4, 48)
 texture = ExtResource("6_r81sj")
 offset = Vector2(124, 64)
 region_enabled = true
 region_rect = Rect2(0, 0, 248, 128)
 
-[node name="TheEarth" type="Sprite2D" parent="Images/SolarSystem" unique_id=1837457732]
+[node name="TheEarth" type="Sprite2D" parent="Images/SolarSystem" unique_id=552705183]
 position = Vector2(138, 94)
 texture = ExtResource("7_3hfbi")
 region_enabled = true
 region_rect = Rect2(0, 0, 16, 16)
 
-[node name="Mars" type="Sprite2D" parent="Images/SolarSystem" unique_id=1138204755]
+[node name="Mars" type="Sprite2D" parent="Images/SolarSystem" unique_id=74601578]
 position = Vector2(48, 95)
 texture = ExtResource("7_3hfbi")
 region_enabled = true
 region_rect = Rect2(16, 0, 16, 16)
 
-[node name="Jupiter" type="Sprite2D" parent="Images/SolarSystem" unique_id=945588889]
+[node name="Jupiter" type="Sprite2D" parent="Images/SolarSystem" unique_id=1221782354]
 position = Vector2(182, 107)
 texture = ExtResource("7_3hfbi")
 region_enabled = true
 region_rect = Rect2(32, 0, 16, 16)
 
-[node name="Saturn" type="Sprite2D" parent="Images/SolarSystem" unique_id=2072755653]
+[node name="Saturn" type="Sprite2D" parent="Images/SolarSystem" unique_id=1088460426]
 position = Vector2(110, 118)
 texture = ExtResource("7_3hfbi")
 region_enabled = true
 region_rect = Rect2(48, 0, 16, 16)
 
-[node name="Uranus" type="Sprite2D" parent="Images/SolarSystem" unique_id=1524171909]
+[node name="Uranus" type="Sprite2D" parent="Images/SolarSystem" unique_id=692961229]
 position = Vector2(82, 126)
 texture = ExtResource("7_3hfbi")
 region_enabled = true
 region_rect = Rect2(64, 0, 16, 16)
 
-[node name="Neptune" type="Sprite2D" parent="Images/SolarSystem" unique_id=428522699]
+[node name="Neptune" type="Sprite2D" parent="Images/SolarSystem" unique_id=1514894026]
 position = Vector2(32, 137)
 texture = ExtResource("7_3hfbi")
 region_enabled = true
 region_rect = Rect2(80, 0, 16, 16)
 
-[node name="Pluto" type="Sprite2D" parent="Images/SolarSystem" unique_id=101471622]
+[node name="Pluto" type="Sprite2D" parent="Images/SolarSystem" unique_id=1362825059]
 position = Vector2(168, 154)
 texture = ExtResource("7_3hfbi")
 region_enabled = true
 region_rect = Rect2(96, 0, 16, 16)
 
-[node name="Gohten" type="Node2D" parent="Images" unique_id=811690273]
+[node name="Gohten" type="Node2D" parent="Images" unique_id=2002418235]
 visible = false
 script = ExtResource("8_7wbhf")
 
-[node name="Gohten" type="Sprite2D" parent="Images/Gohten" unique_id=1982752338]
+[node name="Gohten" type="Sprite2D" parent="Images/Gohten" unique_id=1467806266]
 position = Vector2(128, 112)
 texture = ExtResource("6_r81sj")
 offset = Vector2(4, 0)
 region_enabled = true
 region_rect = Rect2(248, 0, 248, 128)
 
-[node name="Jets" type="TextureRect" parent="Images/Gohten" unique_id=1742997741]
+[node name="Jets" type="TextureRect" parent="Images/Gohten" unique_id=1032614714]
 offset_left = -512.0
 offset_top = 47.0
 offset_right = 256.0
@@ -130,7 +130,7 @@ offset_bottom = 111.0
 texture = ExtResource("9_l75b3")
 stretch_mode = 1
 
-[node name="Ghidorah" type="Sprite2D" parent="Images" unique_id=1242514056]
+[node name="Ghidorah" type="Sprite2D" parent="Images" unique_id=1316721612]
 visible = false
 position = Vector2(4, 48)
 texture = ExtResource("6_r81sj")
@@ -138,62 +138,62 @@ offset = Vector2(124, 64)
 region_enabled = true
 region_rect = Rect2(496, 0, 248, 128)
 
-[node name="EarthInvasion" type="Node2D" parent="Images" unique_id=1909625493]
+[node name="EarthInvasion" type="Node2D" parent="Images" unique_id=1578514746]
 visible = false
 position = Vector2(4, 48)
 script = ExtResource("10_srl7t")
 
-[node name="Background" type="Sprite2D" parent="Images/EarthInvasion" unique_id=42692975]
+[node name="Background" type="Sprite2D" parent="Images/EarthInvasion" unique_id=660882899]
 texture = ExtResource("6_r81sj")
 offset = Vector2(124, 64)
 region_enabled = true
 region_rect = Rect2(744, 0, 248, 128)
 
-[node name="Ships" type="Node2D" parent="Images/EarthInvasion" unique_id=1100494143]
+[node name="Ships" type="Node2D" parent="Images/EarthInvasion" unique_id=40037218]
 
-[node name="BigShip1" type="Sprite2D" parent="Images/EarthInvasion/Ships" unique_id=1714930898]
+[node name="BigShip1" type="Sprite2D" parent="Images/EarthInvasion/Ships" unique_id=1386097221]
 position = Vector2(60, 89)
 texture = ExtResource("11_8ybc6")
 region_enabled = true
 region_rect = Rect2(0, 0, 40, 16)
 
-[node name="BigShip2" type="Sprite2D" parent="Images/EarthInvasion/Ships" unique_id=786974023]
+[node name="BigShip2" type="Sprite2D" parent="Images/EarthInvasion/Ships" unique_id=112977977]
 position = Vector2(156, 73)
 texture = ExtResource("11_8ybc6")
 region_enabled = true
 region_rect = Rect2(0, 0, 40, 16)
 
-[node name="BigShip3" type="Sprite2D" parent="Images/EarthInvasion/Ships" unique_id=791057152]
+[node name="BigShip3" type="Sprite2D" parent="Images/EarthInvasion/Ships" unique_id=170893912]
 position = Vector2(172, 113)
 texture = ExtResource("11_8ybc6")
 region_enabled = true
 region_rect = Rect2(0, 0, 40, 16)
 
-[node name="SmallShip1" type="Sprite2D" parent="Images/EarthInvasion/Ships" unique_id=963177406]
+[node name="SmallShip1" type="Sprite2D" parent="Images/EarthInvasion/Ships" unique_id=731964087]
 position = Vector2(132, 56)
 texture = ExtResource("11_8ybc6")
 region_enabled = true
 region_rect = Rect2(0, 16, 24, 10)
 
-[node name="SmallShip2" type="Sprite2D" parent="Images/EarthInvasion/Ships" unique_id=940415584]
+[node name="SmallShip2" type="Sprite2D" parent="Images/EarthInvasion/Ships" unique_id=1967840646]
 position = Vector2(84, 48)
 texture = ExtResource("11_8ybc6")
 region_enabled = true
 region_rect = Rect2(0, 16, 24, 10)
 
-[node name="SmallShip3" type="Sprite2D" parent="Images/EarthInvasion/Ships" unique_id=1889760396]
+[node name="SmallShip3" type="Sprite2D" parent="Images/EarthInvasion/Ships" unique_id=177903121]
 position = Vector2(28, 64)
 texture = ExtResource("11_8ybc6")
 region_enabled = true
 region_rect = Rect2(0, 16, 24, 10)
 
-[node name="SmallShip4" type="Sprite2D" parent="Images/EarthInvasion/Ships" unique_id=91955646]
+[node name="SmallShip4" type="Sprite2D" parent="Images/EarthInvasion/Ships" unique_id=502158416]
 position = Vector2(164, 104)
 texture = ExtResource("11_8ybc6")
 region_enabled = true
 region_rect = Rect2(0, 16, 24, 10)
 
-[node name="ImageChangeTimer" type="Timer" parent="." unique_id=1168205410]
+[node name="ImageChangeTimer" type="Timer" parent="." unique_id=741221415]
 wait_time = 8.0
 autostart = true
 

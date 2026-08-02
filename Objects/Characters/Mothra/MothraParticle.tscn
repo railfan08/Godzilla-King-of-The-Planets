@@ -77,16 +77,16 @@ name = "Main"
 type = 2
 damage_amount = 2.0
 
-[node name="MothraParticle" type="AnimatedSprite2D" unique_id=780621689]
+[node name="MothraParticle" type="AnimatedSprite2D" unique_id=998963310]
 sprite_frames = SubResource("SpriteFrames_8dfex")
 animation = &"Wing"
 script = ExtResource("2_v1kq8")
 
-[node name="Timer" type="Timer" parent="." unique_id=1423701373]
+[node name="Timer" type="Timer" parent="." unique_id=1782795260]
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1834841346]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=212443269]
 libraries/ = SubResource("AnimationLibrary_4aq1u")
 
-[node name="AttackComponent" parent="." unique_id=2013824236 instance=ExtResource("3_f4212")]
+[node name="AttackComponent" parent="." unique_id=1681728552 instance=ExtResource("3_f4212")]
 initial_attack = "Main"
 attacks = Array[ExtResource("4_nmrfy")]([SubResource("Resource_hgkoj")])

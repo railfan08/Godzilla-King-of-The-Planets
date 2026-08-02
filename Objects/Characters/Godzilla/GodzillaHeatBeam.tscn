@@ -193,16 +193,16 @@ type = 1
 damage_amount = 24.0
 time_length = 1.0
 
-[node name="GodzillaHeatBeam" type="AnimatedSprite2D" unique_id=1886874589]
+[node name="GodzillaHeatBeam" type="AnimatedSprite2D" unique_id=370850831]
 sprite_frames = SubResource("SpriteFrames_5qopn")
 offset = Vector2(0, 1)
 script = ExtResource("2_opyea")
 
-[node name="FlashTimer" type="Timer" parent="." unique_id=1876738035]
+[node name="FlashTimer" type="Timer" parent="." unique_id=2014275201]
 wait_time = 0.05
 autostart = true
 
-[node name="AttackComponent" parent="." unique_id=574990588 instance=ExtResource("3_acgqs")]
+[node name="AttackComponent" parent="." unique_id=1236199940 instance=ExtResource("3_acgqs")]
 attacks = Array[ExtResource("4_t4p4k")]([SubResource("Resource_l0eq5")])
 
 [connection signal="timeout" from="FlashTimer" to="." method="_on_timer_timeout"]

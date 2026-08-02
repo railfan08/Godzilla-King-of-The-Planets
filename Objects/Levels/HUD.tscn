@@ -7,18 +7,18 @@
 [sub_resource type="LabelSettings" id="LabelSettings_ke5ce"]
 line_spacing = -4.0
 
-[node name="HUD" type="CanvasLayer" unique_id=1725163295]
+[node name="HUD" type="CanvasLayer" unique_id=226140333]
 script = ExtResource("1_no1ya")
 
-[node name="BgRect" type="ColorRect" parent="." unique_id=1310708959]
+[node name="BgRect" type="ColorRect" parent="." unique_id=604608380]
 offset_right = 256.0
 offset_bottom = 48.0
 color = Color(0, 0, 0, 1)
 
-[node name="PlayerCharacter" type="Node2D" parent="." unique_id=1457107988]
+[node name="PlayerCharacter" type="Node2D" parent="." unique_id=1599857306]
 position = Vector2(8, 24)
 
-[node name="CharacterName" type="Label" parent="PlayerCharacter" unique_id=1074683575]
+[node name="CharacterName" type="Label" parent="PlayerCharacter" unique_id=903477040]
 offset_right = 104.0
 offset_bottom = 8.0
 theme_override_fonts/font = ExtResource("2_doi0m")
@@ -26,7 +26,7 @@ text = "player"
 label_settings = SubResource("LabelSettings_ke5ce")
 uppercase = true
 
-[node name="PowerLife" type="Label" parent="PlayerCharacter" unique_id=360980164]
+[node name="PowerLife" type="Label" parent="PlayerCharacter" unique_id=95860728]
 offset_left = 8.0
 offset_top = 8.0
 offset_right = 48.0
@@ -37,14 +37,14 @@ life"
 label_settings = SubResource("LabelSettings_ke5ce")
 uppercase = true
 
-[node name="Power" parent="PlayerCharacter" unique_id=630249610 instance=ExtResource("3_y64wl")]
+[node name="Power" parent="PlayerCharacter" unique_id=1805432250 instance=ExtResource("3_y64wl")]
 offset_left = 56.0
 offset_top = 8.0
 offset_right = 137.0
 offset_bottom = 16.0
 width = 6
 
-[node name="Life" parent="PlayerCharacter" unique_id=1612698284 instance=ExtResource("3_y64wl")]
+[node name="Life" parent="PlayerCharacter" unique_id=1026798906 instance=ExtResource("3_y64wl")]
 offset_left = 56.0
 offset_top = 16.0
 offset_right = 137.0
@@ -52,7 +52,7 @@ offset_bottom = 24.0
 width = 6
 color2 = Color(0.709804, 0.188235, 0.12549, 1)
 
-[node name="ScoreMeter" type="Label" parent="PlayerCharacter" unique_id=642283739]
+[node name="ScoreMeter" type="Label" parent="PlayerCharacter" unique_id=1172868112]
 offset_left = 88.0
 offset_right = 152.0
 offset_bottom = 8.0
@@ -62,7 +62,7 @@ label_settings = SubResource("LabelSettings_ke5ce")
 horizontal_alignment = 2
 uppercase = true
 
-[node name="Level" type="Label" parent="PlayerCharacter" unique_id=196490638]
+[node name="Level" type="Label" parent="PlayerCharacter" unique_id=1474821143]
 clip_children = 2
 offset_left = 168.0
 offset_right = 232.0
@@ -72,34 +72,34 @@ text = "level 01"
 label_settings = SubResource("LabelSettings_ke5ce")
 uppercase = true
 
-[node name="Bar" parent="PlayerCharacter/Level" unique_id=1679011322 instance=ExtResource("3_y64wl")]
+[node name="Bar" parent="PlayerCharacter/Level" unique_id=1841065234 instance=ExtResource("3_y64wl")]
 layout_mode = 0
 offset_right = 64.0
 style = 1
 width = 100
 initial_value = 30
 
-[node name="Style1" parent="PlayerCharacter/Level/Bar" index="0" unique_id=2133006521]
+[node name="Style1" parent="PlayerCharacter/Level/Bar" index="0" unique_id=1864663141]
 visible = false
 
-[node name="Style2" parent="PlayerCharacter/Level/Bar" index="1" unique_id=2142228100]
+[node name="Style2" parent="PlayerCharacter/Level/Bar" index="1" unique_id=307471578]
 visible = true
 offset_right = 81.0
 
-[node name="BarBG" parent="PlayerCharacter/Level/Bar/Style2" index="0" unique_id=2125627865]
+[node name="BarBG" parent="PlayerCharacter/Level/Bar/Style2" index="0" unique_id=924493378]
 offset_top = 5.96046e-08
 offset_right = 64.0
 offset_bottom = 8.0
 
-[node name="BarColor" parent="PlayerCharacter/Level/Bar/Style2" index="1" unique_id=122456076]
+[node name="BarColor" parent="PlayerCharacter/Level/Bar/Style2" index="1" unique_id=1338171258]
 offset_top = 0.0
 offset_right = 19.2
 offset_bottom = 8.0
 
-[node name="BossCharacter" type="Node2D" parent="." unique_id=1407330890]
+[node name="BossCharacter" type="Node2D" parent="." unique_id=820717064]
 position = Vector2(8, 48)
 
-[node name="CharacterName" type="Label" parent="BossCharacter" unique_id=1670070758]
+[node name="CharacterName" type="Label" parent="BossCharacter" unique_id=1555951075]
 offset_right = 150.0
 offset_bottom = 8.0
 theme_override_fonts/font = ExtResource("2_doi0m")
@@ -107,7 +107,7 @@ text = "boss"
 label_settings = SubResource("LabelSettings_ke5ce")
 uppercase = true
 
-[node name="PowerLife" type="Label" parent="BossCharacter" unique_id=1298630135]
+[node name="PowerLife" type="Label" parent="BossCharacter" unique_id=2056459628]
 offset_left = 8.0
 offset_top = 8.0
 offset_right = 48.0
@@ -118,19 +118,19 @@ life"
 label_settings = SubResource("LabelSettings_ke5ce")
 uppercase = true
 
-[node name="Power" parent="BossCharacter" unique_id=432487467 instance=ExtResource("3_y64wl")]
+[node name="Power" parent="BossCharacter" unique_id=2103021530 instance=ExtResource("3_y64wl")]
 offset_left = 56.0
 offset_top = 8.0
 offset_right = 137.0
 offset_bottom = 16.0
 
-[node name="Life" parent="BossCharacter" unique_id=734575317 instance=ExtResource("3_y64wl")]
+[node name="Life" parent="BossCharacter" unique_id=1300843074 instance=ExtResource("3_y64wl")]
 offset_left = 56.0
 offset_top = 16.0
 offset_right = 137.0
 offset_bottom = 24.0
 
-[node name="TimerText" type="Label" parent="BossCharacter" unique_id=806850693]
+[node name="TimerText" type="Label" parent="BossCharacter" unique_id=1730557713]
 offset_left = 88.0
 offset_right = 152.0
 offset_bottom = 8.0
@@ -140,13 +140,13 @@ label_settings = SubResource("LabelSettings_ke5ce")
 horizontal_alignment = 2
 uppercase = true
 
-[node name="BgRect2" type="ColorRect" parent="BossCharacter" unique_id=443110193]
+[node name="BgRect2" type="ColorRect" parent="BossCharacter" unique_id=1056937347]
 offset_left = -8.0
 offset_top = 24.0
 offset_right = 248.0
 offset_bottom = 32.0
 color = Color(0, 0, 0, 1)
 
-[node name="Timer" type="Timer" parent="BossCharacter" unique_id=250920341]
+[node name="Timer" type="Timer" parent="BossCharacter" unique_id=737650672]
 
 [editable path="PlayerCharacter/Level/Bar"]

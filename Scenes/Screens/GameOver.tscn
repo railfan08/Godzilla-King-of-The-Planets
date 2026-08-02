@@ -7,11 +7,11 @@
 [sub_resource type="LabelSettings" id="LabelSettings_1gnhd"]
 line_spacing = 0.0
 
-[node name="GameOver" type="Node2D" unique_id=492511568]
+[node name="GameOver" type="Node2D" unique_id=1323360708]
 script = ExtResource("1_43hv7")
 music = ExtResource("2_ktc4i")
 
-[node name="CharacterName" type="Label" parent="." unique_id=1086761659]
+[node name="CharacterName" type="Label" parent="." unique_id=1172901475]
 offset_left = 88.0
 offset_top = 112.0
 offset_right = 160.0

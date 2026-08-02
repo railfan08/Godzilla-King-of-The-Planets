@@ -94,24 +94,24 @@ _data = {
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cf2pk"]
 size = Vector2(20, 15)
 
-[node name="RocketLauncher" unique_id=1548127487 instance=ExtResource("1_rx4fb")]
+[node name="RocketLauncher" unique_id=2115603663 instance=ExtResource("1_rx4fb")]
 script = ExtResource("2_5wmul")
 
-[node name="HealthComponent" parent="." index="0" unique_id=2012669284]
+[node name="HealthComponent" parent="." index="0" unique_id=1050282245]
 max_value = 1.0
 
-[node name="AttackComponent" parent="." index="1" unique_id=1475161333]
+[node name="AttackComponent" parent="." index="1" unique_id=1251726309]
 initial_attack = ""
 attacks = Array[ExtResource("3_2nqwn")]([])
 
-[node name="Sprite2D" type="Sprite2D" parent="." index="2" unique_id=1665723389]
+[node name="Sprite2D" type="Sprite2D" parent="." index="2" unique_id=1402026508]
 position = Vector2(0, -8)
 texture = ExtResource("2_p5nvc")
 hframes = 5
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="3" unique_id=1091569372]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="3" unique_id=1157622725]
 libraries/ = SubResource("AnimationLibrary_edroy")
 
-[node name="CollisionShape2D" parent="." index="4" unique_id=1717982716]
+[node name="CollisionShape2D" parent="." index="4" unique_id=1111146483]
 position = Vector2(0, 0.5)
 shape = SubResource("RectangleShape2D_cf2pk")

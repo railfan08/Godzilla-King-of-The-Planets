@@ -4,10 +4,10 @@
 [ext_resource type="FontFile" uid="uid://dycfyvuoxfwc0" path="res://Sprites/font1.png" id="2_fls7i"]
 [ext_resource type="AudioStream" uid="uid://bq6ov0bep762q" path="res://Audio/SFX/MenuBip.wav" id="3_akdro"]
 
-[node name="SoundSettings" type="Node2D" unique_id=29686320 groups=["menu"]]
+[node name="SoundSettings" type="Node2D" unique_id=311751595 groups=["menu"]]
 script = ExtResource("1_pspne")
 
-[node name="SFXVolume" type="Label" parent="." unique_id=1957419641 groups=["option"]]
+[node name="SFXVolume" type="Label" parent="." unique_id=1069825484 groups=["option"]]
 offset_left = 72.0
 offset_top = 80.0
 offset_right = 184.0
@@ -16,7 +16,7 @@ theme_override_fonts/font = ExtResource("2_fls7i")
 text = "sfx volume:   100"
 uppercase = true
 
-[node name="MusicVolume" type="Label" parent="." unique_id=1443327049 groups=["option"]]
+[node name="MusicVolume" type="Label" parent="." unique_id=310819607 groups=["option"]]
 offset_left = 72.0
 offset_top = 104.0
 offset_right = 208.0
@@ -25,7 +25,7 @@ theme_override_fonts/font = ExtResource("2_fls7i")
 text = "music volume: 100"
 uppercase = true
 
-[node name="Exit" type="Label" parent="." unique_id=985293636 groups=["option"]]
+[node name="Exit" type="Label" parent="." unique_id=1105633463 groups=["option"]]
 offset_left = 72.0
 offset_top = 128.0
 offset_right = 184.0
@@ -34,5 +34,5 @@ theme_override_fonts/font = ExtResource("2_fls7i")
 text = "exit"
 uppercase = true
 
-[node name="SFXTest" type="AudioStreamPlayer" parent="." unique_id=1966167278]
+[node name="SFXTest" type="AudioStreamPlayer" parent="." unique_id=350530701]
 stream = ExtResource("3_akdro")

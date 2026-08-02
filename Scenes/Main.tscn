@@ -50,18 +50,18 @@ _data = {
 &"RESET": SubResource("Animation_mfy1u")
 }
 
-[node name="Main" type="Node2D" unique_id=758410955]
+[node name="Main" type="Node2D" unique_id=804997959]
 process_mode = 3
 script = ExtResource("1_csd2w")
 
-[node name="CurrentScene" type="Node2D" parent="." unique_id=1277561307]
+[node name="CurrentScene" type="Node2D" parent="." unique_id=997026013]
 unique_name_in_owner = true
 process_mode = 1
 
-[node name="Fade" type="CanvasLayer" parent="." unique_id=1542067459]
+[node name="Fade" type="CanvasLayer" parent="." unique_id=999801828]
 layer = 100
 
-[node name="FadeRect" type="ColorRect" parent="Fade" unique_id=915761409]
+[node name="FadeRect" type="ColorRect" parent="Fade" unique_id=1329766074]
 material = SubResource("ShaderMaterial_50glp")
 anchors_preset = 15
 anchor_right = 1.0
@@ -69,32 +69,32 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="FadePlayer" type="AnimationPlayer" parent="Fade" unique_id=1085786455]
+[node name="FadePlayer" type="AnimationPlayer" parent="Fade" unique_id=950976927]
 root_node = NodePath("../..")
 libraries/ = SubResource("AnimationLibrary_lb25u")
 
-[node name="Music" type="AudioStreamPlayer" parent="." unique_id=1466315630]
+[node name="Music" type="AudioStreamPlayer" parent="." unique_id=35423656]
 process_mode = 3
 bus = &"Music"
 
-[node name="GlobalSFX" type="Node" parent="." unique_id=1152090227]
+[node name="GlobalSFX" type="Node" parent="." unique_id=701049908]
 process_mode = 1
 
-[node name="Pause" type="AudioStreamPlayer" parent="GlobalSFX" unique_id=2076639082]
+[node name="Pause" type="AudioStreamPlayer" parent="GlobalSFX" unique_id=644676185]
 process_mode = 3
 stream = ExtResource("3_iol3x")
 bus = &"SFX"
 
-[node name="Explosion" type="AudioStreamPlayer" parent="GlobalSFX" unique_id=372642517]
+[node name="Explosion" type="AudioStreamPlayer" parent="GlobalSFX" unique_id=1338178758]
 stream = ExtResource("3_jlebr")
 bus = &"SFX"
 
-[node name="BlockDestruct" type="AudioStreamPlayer" parent="GlobalSFX" unique_id=2140035439]
+[node name="BlockDestruct" type="AudioStreamPlayer" parent="GlobalSFX" unique_id=121092326]
 stream = ExtResource("4_oop6x")
 volume_db = 5.0
 bus = &"SFX"
 
-[node name="MenuBip" type="AudioStreamPlayer" parent="GlobalSFX" unique_id=1812519242]
+[node name="MenuBip" type="AudioStreamPlayer" parent="GlobalSFX" unique_id=926970341]
 process_mode = 3
 stream = ExtResource("6_mae3b")
 bus = &"SFX"

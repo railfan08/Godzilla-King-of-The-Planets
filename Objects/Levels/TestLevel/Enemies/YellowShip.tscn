@@ -46,22 +46,22 @@ _data = {
 &"main": SubResource("Animation_xt50m")
 }
 
-[node name="YellowShip" unique_id=868870806 instance=ExtResource("1_sghao")]
+[node name="YellowShip" unique_id=689042730 instance=ExtResource("1_sghao")]
 script = ExtResource("2_164y3")
 
-[node name="HealthComponent" parent="." index="0" unique_id=2012669284]
+[node name="HealthComponent" parent="." index="0" unique_id=1050282245]
 max_value = 2.0
 
-[node name="CollisionShape2D" parent="." index="2" unique_id=1717982716]
+[node name="CollisionShape2D" parent="." index="2" unique_id=1111146483]
 position = Vector2(-0.5, 0)
 shape = SubResource("RectangleShape2D_exeov")
 
-[node name="Sprite" type="Sprite2D" parent="." index="3" unique_id=1232312775]
+[node name="Sprite" type="Sprite2D" parent="." index="3" unique_id=1364264834]
 texture = ExtResource("1_jpes6")
 region_enabled = true
 region_rect = Rect2(7, 11, 20, 12)
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="4" unique_id=1430910071]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="4" unique_id=704871053]
 root_node = NodePath("../Sprite")
 libraries/ = SubResource("AnimationLibrary_lcmgl")
 

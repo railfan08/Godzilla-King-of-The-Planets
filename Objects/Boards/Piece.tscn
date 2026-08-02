@@ -3,12 +3,12 @@
 [ext_resource type="Texture2D" uid="uid://wmgv6kcqcri0" path="res://Sprites/Levels/BoardSprites.png" id="1_vlmlk"]
 [ext_resource type="Script" uid="uid://b1u12xjidjlt5" path="res://Scripts/Objects/Boards/Piece.gd" id="2_f5xfm"]
 
-[node name="Piece" type="Sprite2D" unique_id=504318834]
+[node name="Piece" type="Sprite2D" unique_id=1782821161]
 texture = ExtResource("1_vlmlk")
 region_enabled = true
 region_rect = Rect2(0, 48, 48, 48)
 script = ExtResource("2_f5xfm")
 
-[node name="NavigationAgent2D" type="NavigationAgent2D" parent="." unique_id=1708301202]
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="." unique_id=1052537068]
 path_postprocessing = 1
 avoidance_mask = 2

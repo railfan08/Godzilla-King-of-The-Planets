@@ -192,7 +192,7 @@ _data = {
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_75xht"]
 size = Vector2(36, 14)
 
-[node name="Character" unique_id=2024088543 instance=ExtResource("1_pe2a4")]
+[node name="Character" unique_id=197509838 instance=ExtResource("1_pe2a4")]
 script = ExtResource("2_en534")
 character_info = ExtResource("3_cwrxe")
 move_state = 1
@@ -203,20 +203,20 @@ intro_step_sfx_start = 20
 intro_step_sfx_offset = 0
 attacks = Array[ExtResource("4_qw0ix")]([SubResource("Resource_l3d0x"), SubResource("Resource_tkeyd")])
 
-[node name="Body" parent="." index="0" unique_id=149320899]
+[node name="Body" parent="." index="0" unique_id=863650805]
 position = Vector2(-12, -28)
 sprite_frames = SubResource("SpriteFrames_amh6r")
 animation = &"idle"
 
-[node name="AnimationPlayer" parent="." index="1" unique_id=1533200173]
+[node name="AnimationPlayer" parent="." index="1" unique_id=2145443637]
 libraries/ = SubResource("AnimationLibrary_fqsl6")
 
-[node name="Collision" parent="." index="2" unique_id=565185282]
+[node name="Collision" parent="." index="2" unique_id=1938301669]
 position = Vector2(-4, 1)
 shape = SubResource("RectangleShape2D_75xht")
 
-[node name="Step" parent="SFX" parent_id_path=PackedInt32Array(1809062728) index="0" unique_id=1941380290]
+[node name="Step" parent="SFX" parent_id_path=PackedInt32Array(918549221) index="0" unique_id=394426987]
 stream = ExtResource("7_hse6l")
 
-[node name="Roar" parent="SFX" parent_id_path=PackedInt32Array(1809062728) index="1" unique_id=1875722910]
+[node name="Roar" parent="SFX" parent_id_path=PackedInt32Array(918549221) index="1" unique_id=872164342]
 stream = ExtResource("8_ngo0w")

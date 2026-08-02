@@ -53,11 +53,11 @@ _data = {
 &"animation": SubResource("Animation_pjamu")
 }
 
-[node name="Explosion" type="Sprite2D" unique_id=1014470584]
+[node name="Explosion" type="Sprite2D" unique_id=12029519]
 top_level = true
 texture = ExtResource("1_t4gnj")
 hframes = 2
 script = ExtResource("2_wfcqr")
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1327685757]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1102493560]
 libraries/ = SubResource("AnimationLibrary_t5kuu")

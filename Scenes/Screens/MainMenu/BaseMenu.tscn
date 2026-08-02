@@ -3,18 +3,18 @@
 [ext_resource type="Script" uid="uid://ol3fi8boj727" path="res://Scripts/Screens/MainMenu/BaseMenu.gd" id="1_5lji1"]
 [ext_resource type="FontFile" uid="uid://dycfyvuoxfwc0" path="res://Sprites/font1.png" id="2_2t3ak"]
 
-[node name="MainMenu" type="Node2D" unique_id=1096699142]
+[node name="MainMenu" type="Node2D" unique_id=46121456]
 script = ExtResource("1_5lji1")
 
-[node name="Selector" type="ColorRect" parent="." unique_id=1232778849]
+[node name="Selector" type="ColorRect" parent="." unique_id=149982164]
 offset_right = 8.0
 offset_bottom = 8.0
 color = Color(0.709804, 0.192157, 0.12549, 1)
 
-[node name="MenuMain" type="Node2D" parent="." unique_id=1164378782 groups=["menu"]]
+[node name="MenuMain" type="Node2D" parent="." unique_id=944939036 groups=["menu"]]
 unique_name_in_owner = true
 
-[node name="Exit" type="Label" parent="MenuMain" unique_id=1267122870 groups=["option"]]
+[node name="Exit" type="Label" parent="MenuMain" unique_id=1315468220 groups=["option"]]
 offset_left = 72.0
 offset_top = 176.0
 offset_right = 184.0

@@ -5,7 +5,7 @@
 [ext_resource type="Script" uid="uid://x488hqkc1b0" path="res://Scripts/Levels/Bosses/BaseBoss.gd" id="2_xih6l"]
 [ext_resource type="AudioStream" uid="uid://du1acm7e0olkd" path="res://Audio/Soundtrack/Bosses/Victory.ogg" id="3_3mphf"]
 
-[node name="Boss" unique_id=1741967993 instance=ExtResource("1_ohey1")]
+[node name="Boss" unique_id=906084162 instance=ExtResource("1_ohey1")]
 script = ExtResource("2_xih6l")
 xp_amount = 100
 score_amount = 110000
@@ -20,7 +20,7 @@ offset_top = 216.0
 offset_bottom = 249.0
 texture = null
 
-[node name="Boss" parent="." index="3" unique_id=1315467652 instance=ExtResource("2_atw37")]
+[node name="Boss" parent="." index="3" unique_id=1891692908 instance=ExtResource("2_atw37")]
 position = Vector2(196, 189)
 direction = -1
 is_player = false

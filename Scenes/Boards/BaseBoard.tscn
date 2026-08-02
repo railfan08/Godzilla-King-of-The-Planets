@@ -59,16 +59,16 @@ sources/0 = SubResource("TileSetAtlasSource_y5qnd")
 sources/1 = SubResource("TileSetAtlasSource_dct05")
 sources/2 = SubResource("TileSetScenesCollectionSource_q6vje")
 
-[node name="Board" type="Node2D" unique_id=1331949173]
+[node name="Board" type="Node2D" unique_id=573265310]
 script = ExtResource("1_qudp1")
 
-[node name="BoardName" type="CenterContainer" parent="." unique_id=801277815]
+[node name="BoardName" type="CenterContainer" parent="." unique_id=1977162247]
 visible = false
 offset_right = 56.0
 offset_bottom = 32.0
 use_top_left = true
 
-[node name="Label" type="Label" parent="BoardName" unique_id=2096028597]
+[node name="Label" type="Label" parent="BoardName" unique_id=861238181]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("3_2wbjf")
 text = "board name here"
@@ -76,25 +76,25 @@ horizontal_alignment = 1
 vertical_alignment = 1
 uppercase = true
 
-[node name="Board" type="Node2D" parent="." unique_id=167124525]
+[node name="Board" type="Node2D" parent="." unique_id=840433018]
 position = Vector2(16, 8)
 
-[node name="Outline" type="TileMapLayer" parent="Board" unique_id=2087533472]
+[node name="Outline" type="TileMapLayer" parent="Board" unique_id=1502010951]
 z_index = -5
 
-[node name="Board Icons" type="TileMapLayer" parent="Board" unique_id=317169229]
+[node name="Board Icons" type="TileMapLayer" parent="Board" unique_id=73702475]
 z_index = -10
 tile_map_data = PackedByteArray("AAAAAAAAAQAAAAAAAAABAAEAAQAAAAAAAAABAAIAAQAAAAAAAAAAAAEAAQAAAAAAAAACAAEAAQAAAAAAAAACAAIAAQAAAAAAAAACAAMAAQAAAAAAAAABAAMAAQAAAAAAAAAAAAIAAQAAAAAAAAADAAMAAgAAAAAAAQA=")
 tile_set = SubResource("TileSet_8es2h")
 
-[node name="Board Pieces" type="Node2D" parent="Board/Board Icons" unique_id=1104467634]
+[node name="Board Pieces" type="Node2D" parent="Board/Board Icons" unique_id=388189293]
 unique_name_in_owner = true
 z_as_relative = false
 
-[node name="Godzilla" parent="Board/Board Icons/Board Pieces" unique_id=574023435 instance=ExtResource("5_5kcnc")]
+[node name="Godzilla" parent="Board/Board Icons/Board Pieces" unique_id=619788243 instance=ExtResource("5_5kcnc")]
 position = Vector2(16, 24)
 
-[node name="Selector" parent="Board/Board Icons" unique_id=2097831422 node_paths=PackedStringArray("board_outline", "tilemap", "message_window", "board") instance=ExtResource("6_ysf6o")]
+[node name="Selector" parent="Board/Board Icons" unique_id=1754459266 node_paths=PackedStringArray("board_outline", "tilemap", "message_window", "board") instance=ExtResource("6_ysf6o")]
 z_as_relative = false
 position = Vector2(16, 24)
 board_outline = NodePath("../../Outline")
@@ -102,7 +102,7 @@ tilemap = NodePath("..")
 message_window = NodePath("../../GUI/MessageWindow")
 board = NodePath("../../..")
 
-[node name="Camera2D" type="Camera2D" parent="Board/Board Icons/Selector" unique_id=809633964]
+[node name="Camera2D" type="Camera2D" parent="Board/Board Icons/Selector" unique_id=1156620771]
 limit_left = 0
 limit_top = 0
 limit_right = 256
@@ -113,10 +113,10 @@ drag_top_margin = 0.1
 drag_bottom_margin = 0.1
 editor_draw_limits = true
 
-[node name="GUI" type="CanvasLayer" parent="Board" unique_id=1362511657]
+[node name="GUI" type="CanvasLayer" parent="Board" unique_id=787292454]
 layer = 10
 
-[node name="MessageWindow" parent="Board/GUI" unique_id=1125428338 node_paths=PackedStringArray("selector") instance=ExtResource("7_hcaag")]
+[node name="MessageWindow" parent="Board/GUI" unique_id=1338750056 node_paths=PackedStringArray("selector") instance=ExtResource("7_hcaag")]
 visible = false
 offset_left = 16.0
 offset_top = 136.0

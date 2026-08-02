@@ -26,6 +26,7 @@ func _ready() -> void:
 			start()
 	else:
 		initial_scene = initial_scene_release
+		start()
 		
 func _wait_before_start_func() -> void:
 	if not wait_before_start_flag and Global.any_action_button_pressed():

@@ -7,14 +7,14 @@
 [sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_cnspg"]
 size = Vector2(32, 32)
 
-[node name="SaveSlot" type="Control" unique_id=134918518]
+[node name="SaveSlot" type="Control" unique_id=284265629]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 script = ExtResource("2_han8w")
 
-[node name="Border" type="NinePatchRect" parent="." unique_id=1800578766]
+[node name="Border" type="NinePatchRect" parent="." unique_id=11750370]
 layout_mode = 0
 offset_right = 192.0
 offset_bottom = 48.0
@@ -25,16 +25,16 @@ patch_margin_top = 8
 patch_margin_right = 8
 patch_margin_bottom = 8
 
-[node name="SaveExists" type="Node2D" parent="." unique_id=102082297]
+[node name="SaveExists" type="Node2D" parent="." unique_id=1041544328]
 
-[node name="PlanetIcon" type="TextureRect" parent="SaveExists" unique_id=1576763787]
+[node name="PlanetIcon" type="TextureRect" parent="SaveExists" unique_id=1459319996]
 offset_left = 152.0
 offset_top = 8.0
 offset_right = 184.0
 offset_bottom = 40.0
 texture = SubResource("PlaceholderTexture2D_cnspg")
 
-[node name="SaveID" type="Label" parent="SaveExists" unique_id=1968476929 groups=["option"]]
+[node name="SaveID" type="Label" parent="SaveExists" unique_id=1069006637 groups=["option"]]
 offset_left = 72.0
 offset_top = 16.0
 offset_right = 120.0
@@ -44,7 +44,7 @@ text = "save 1"
 uppercase = true
 metadata/_edit_use_anchors_ = true
 
-[node name="PlanetName" type="Label" parent="SaveExists" unique_id=404695914 groups=["option"]]
+[node name="PlanetName" type="Label" parent="SaveExists" unique_id=1892836160 groups=["option"]]
 offset_left = 48.0
 offset_top = 24.0
 offset_right = 144.0
@@ -55,10 +55,10 @@ horizontal_alignment = 1
 uppercase = true
 metadata/_edit_use_anchors_ = true
 
-[node name="DoesntExist" type="Node2D" parent="." unique_id=1822307644]
+[node name="DoesntExist" type="Node2D" parent="." unique_id=1769302467]
 position = Vector2(0, 24)
 
-[node name="SaveID" type="Label" parent="DoesntExist" unique_id=919508908 groups=["option"]]
+[node name="SaveID" type="Label" parent="DoesntExist" unique_id=1414778300 groups=["option"]]
 offset_left = 72.0
 offset_top = -8.0
 offset_right = 120.0
@@ -67,7 +67,7 @@ theme_override_fonts/font = ExtResource("3_6dxk1")
 text = "save 1"
 uppercase = true
 
-[node name="Empty" type="Label" parent="DoesntExist" unique_id=1565603767 groups=["option"]]
+[node name="Empty" type="Label" parent="DoesntExist" unique_id=1296612514 groups=["option"]]
 offset_left = 72.0
 offset_right = 120.0
 offset_bottom = 16.0

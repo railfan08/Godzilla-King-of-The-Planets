@@ -1,5 +1,5 @@
+class_name HUD
 extends CanvasLayer
-
 @export var player: GameCharacter = null
 @export var boss: GameCharacter = null
 @export var boss_bar_color: Color

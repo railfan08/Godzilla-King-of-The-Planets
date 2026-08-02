@@ -100,24 +100,24 @@ _data = {
 &"idle": SubResource("Animation_on3rk")
 }
 
-[node name="Jet" unique_id=809252600 instance=ExtResource("1_rc47s")]
+[node name="Jet" unique_id=279329918 instance=ExtResource("1_rc47s")]
 script = ExtResource("2_oq0b1")
 
-[node name="HealthComponent" parent="." index="0" unique_id=2012669284]
+[node name="HealthComponent" parent="." index="0" unique_id=1050282245]
 max_value = 1.0
 
-[node name="CollisionShape2D" parent="." index="2" unique_id=1717982716]
+[node name="CollisionShape2D" parent="." index="2" unique_id=1111146483]
 position = Vector2(0, -0.5)
 shape = SubResource("RectangleShape2D_e8sqc")
 
-[node name="Sprite2D" type="Sprite2D" parent="." index="3" unique_id=1764263444]
+[node name="Sprite2D" type="Sprite2D" parent="." index="3" unique_id=1052391709]
 texture = ExtResource("2_v43kf")
 hframes = 3
 frame = 1
 region_enabled = true
 region_rect = Rect2(0, 0, 78, 16)
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="4" unique_id=557852766]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="4" unique_id=549392869]
 libraries/ = SubResource("AnimationLibrary_gx3mi")
 
 [connection signal="attacked" from="AttackComponent" to="." method="_on_attack_component_attacked"]

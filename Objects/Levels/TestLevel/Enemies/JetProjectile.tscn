@@ -16,24 +16,24 @@ type = 2
 damage_amount = 2.0
 hitbox_name = "Collision"
 
-[node name="JetProjectile" type="Node2D" unique_id=1585568078]
+[node name="JetProjectile" type="Node2D" unique_id=2072805802]
 script = ExtResource("1_fygt2")
 
-[node name="Jet" type="Sprite2D" parent="." unique_id=1837157858]
+[node name="Jet" type="Sprite2D" parent="." unique_id=1652372610]
 texture = ExtResource("1_654l8")
 region_enabled = true
 region_rect = Rect2(78, 0, 8, 2)
 
-[node name="Collision" type="CollisionShape2D" parent="." unique_id=1407512767]
+[node name="Collision" type="CollisionShape2D" parent="." unique_id=158695688]
 shape = SubResource("RectangleShape2D_af28v")
 
-[node name="AttackComponent" parent="." unique_id=564922278 node_paths=PackedStringArray("hitboxes") instance=ExtResource("2_373u2")]
+[node name="AttackComponent" parent="." unique_id=1523479203 node_paths=PackedStringArray("hitboxes") instance=ExtResource("2_373u2")]
 hitboxes = NodePath("..")
 enemy = true
 initial_attack = "Main"
 attacks = Array[ExtResource("4_vdb01")]([SubResource("Resource_107ip")])
 
-[node name="DestroySFX" type="AudioStreamPlayer" parent="." unique_id=19737437]
+[node name="DestroySFX" type="AudioStreamPlayer" parent="." unique_id=65036198]
 stream = ExtResource("4_h0tpx")
 bus = &"SFX"
 

@@ -7,7 +7,7 @@
 [sub_resource type="LabelSettings" id="LabelSettings_qwev6"]
 line_spacing = 0.0
 
-[node name="MessageWindow" type="NinePatchRect" unique_id=1227057237]
+[node name="MessageWindow" type="NinePatchRect" unique_id=576595690]
 offset_right = 32.0
 offset_bottom = 32.0
 texture = ExtResource("1_yr4n5")
@@ -18,7 +18,7 @@ patch_margin_right = 8
 patch_margin_bottom = 8
 script = ExtResource("1_4muex")
 
-[node name="Text" type="Label" parent="." unique_id=240055685]
+[node name="Text" type="Label" parent="." unique_id=1564830149]
 layout_mode = 0
 offset_left = 8.0
 offset_top = 8.0
@@ -30,10 +30,10 @@ label_settings = SubResource("LabelSettings_qwev6")
 autowrap_mode = 2
 uppercase = true
 
-[node name="Choice" type="Node2D" parent="." unique_id=1023761802]
+[node name="Choice" type="Node2D" parent="." unique_id=1256566277]
 position = Vector2(16, 40)
 
-[node name="YesNo" type="Label" parent="Choice" unique_id=1704438874]
+[node name="YesNo" type="Label" parent="Choice" unique_id=1906506235]
 offset_left = 8.0
 offset_right = 158.0
 offset_bottom = 16.0
@@ -44,7 +44,7 @@ label_settings = SubResource("LabelSettings_qwev6")
 autowrap_mode = 2
 uppercase = true
 
-[node name="Selector" type="Sprite2D" parent="Choice" unique_id=1205120911]
+[node name="Selector" type="Sprite2D" parent="Choice" unique_id=1634679047]
 texture = ExtResource("1_yr4n5")
 centered = false
 region_enabled = true

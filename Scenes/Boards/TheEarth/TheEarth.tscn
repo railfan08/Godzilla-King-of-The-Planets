@@ -67,26 +67,26 @@ music = ExtResource("2_ffjsg")
 next_scene = ExtResource("3_kuiql")
 board_id = "earth"
 
-[node name="BoardName" parent="." index="0" unique_id=801277815]
+[node name="BoardName" parent="." index="0" unique_id=1977162247]
 visible = true
 
-[node name="Outline" parent="Board" parent_id_path=PackedInt32Array(167124525) index="0" unique_id=2087533472]
+[node name="Outline" parent="Board" parent_id_path=PackedInt32Array(840433018) index="0" unique_id=1502010951]
 z_index = -10
 
-[node name="Board Icons" parent="Board" parent_id_path=PackedInt32Array(167124525) index="1" unique_id=317169229]
+[node name="Board Icons" parent="Board" parent_id_path=PackedInt32Array(840433018) index="1" unique_id=73702475]
 z_index = -9
 tile_map_data = PackedByteArray("AAAAAAAAAQAAAAAAAAABAAEAAQAAAAAAAAABAAIAAQAAAAAAAAAAAAEAAQAAAAAAAAACAAEAAQAAAAAAAAACAAIAAQAAAAAAAAACAAMAAQABAAAAAAABAAMAAQAAAAAAAAAAAAIAAQAAAAAAAAADAAMAAQAAAAAAAAACAAQAAQABAAAAAAABAAQAAQAAAAAAAAAFAAEAAQAAAAAAAAAEAAEAAQAAAAAAAAAEAAIAAQAAAAAAAAADAAIAAQAAAAAAAAADAAUAAQABAAAAAAADAAQAAQABAAAAAAAEAAMAAQAAAAAAAAAEAAQAAQAAAAAAAAAFAAQAAQACAAAAAAAGAAMAAQACAAAAAAAGAAIAAQAAAAAAAAAFAAIAAQAAAAAAAAAFAAMAAQAAAAAAAAAGAAQAAwAAAAAAAQAFAAUAAQACAAAAAAA=")
 tile_set = SubResource("TileSet_6i7e2")
 
-[node name="Dummy1" parent="Board/Board Icons/Board Pieces" parent_id_path=PackedInt32Array(1104467634) index="1" unique_id=918952479 instance=ExtResource("7_5qhq5")]
+[node name="Dummy1" parent="Board/Board Icons/Board Pieces" parent_id_path=PackedInt32Array(388189293) index="1" unique_id=918952479 instance=ExtResource("7_5qhq5")]
 position = Vector2(208, 88)
 scale = Vector2(-1, 1)
 piece_type = 1
 
-[node name="Mothra" parent="Board/Board Icons/Board Pieces" parent_id_path=PackedInt32Array(1104467634) index="2" unique_id=1120562300 instance=ExtResource("7_5qhq5")]
+[node name="Mothra" parent="Board/Board Icons/Board Pieces" parent_id_path=PackedInt32Array(388189293) index="2" unique_id=1120562300 instance=ExtResource("7_5qhq5")]
 position = Vector2(16, 56)
 region_rect = Rect2(0, 96, 48, 48)
 piece_character = 1
 
-[node name="Camera2D" parent="Board/Board Icons/Selector" parent_id_path=PackedInt32Array(2097831422) index="1" unique_id=809633964]
+[node name="Camera2D" parent="Board/Board Icons/Selector" parent_id_path=PackedInt32Array(1754459266) index="1" unique_id=1156620771]
 unique_name_in_owner = true

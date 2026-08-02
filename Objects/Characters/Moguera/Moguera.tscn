@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://bb70ua7n51omi"]
+
+[ext_resource type="PackedScene" uid="uid://2kanj7crlbl5" path="res://Objects/Characters/BaseSkin.tscn" id="1_dn6lw"]
+
+[node name="Character" unique_id=1284613494 instance=ExtResource("1_dn6lw")]

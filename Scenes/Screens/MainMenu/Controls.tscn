@@ -10,16 +10,16 @@ blend_mode = 1
 [sub_resource type="LabelSettings" id="LabelSettings_vln1q"]
 line_spacing = 0.0
 
-[node name="Controls" type="Node2D" unique_id=1904052744 groups=["menu"]]
+[node name="Controls" type="Node2D" unique_id=521282695 groups=["menu"]]
 script = ExtResource("1_pl7kv")
 
-[node name="Controller" type="Sprite2D" parent="." unique_id=1424716739]
+[node name="Controller" type="Sprite2D" parent="." unique_id=1278171125]
 position = Vector2(128, 120)
 texture = ExtResource("2_nqnh2")
 offset = Vector2(0, 3)
 region_rect = Rect2(0, 0, 20, 20)
 
-[node name="ButtonHighlight" type="Sprite2D" parent="." unique_id=686755814]
+[node name="ButtonHighlight" type="Sprite2D" parent="." unique_id=2002327596]
 material = SubResource("CanvasItemMaterial_pvg2g")
 position = Vector2(59, 124)
 texture = ExtResource("2_nqnh2")
@@ -27,7 +27,7 @@ centered = false
 region_enabled = true
 region_rect = Rect2(23, 44, 8, 8)
 
-[node name="CurrentButton" type="Label" parent="." unique_id=18401773]
+[node name="CurrentButton" type="Label" parent="." unique_id=1279940473]
 offset_top = 64.0
 offset_right = 256.0
 offset_bottom = 75.0
@@ -36,7 +36,7 @@ text = "press button up"
 horizontal_alignment = 1
 uppercase = true
 
-[node name="CancelText" type="Label" parent="." unique_id=1672692845]
+[node name="CancelText" type="Label" parent="." unique_id=1384299312]
 offset_top = 176.0
 offset_right = 256.0
 offset_bottom = 187.0
@@ -45,7 +45,7 @@ text = "press escape to exit this menu"
 horizontal_alignment = 1
 uppercase = true
 
-[node name="ResetControls" type="Label" parent="." unique_id=933865933]
+[node name="ResetControls" type="Label" parent="." unique_id=66086226]
 offset_top = 192.0
 offset_right = 256.0
 offset_bottom = 211.0
@@ -55,7 +55,7 @@ later in-game"
 horizontal_alignment = 1
 uppercase = true
 
-[node name="KeyAlreadyMapped" type="Label" parent="." unique_id=1606296013]
+[node name="KeyAlreadyMapped" type="Label" parent="." unique_id=1466533533]
 offset_top = 40.0
 offset_right = 256.0
 offset_bottom = 59.0
@@ -66,7 +66,7 @@ label_settings = SubResource("LabelSettings_vln1q")
 horizontal_alignment = 1
 uppercase = true
 
-[node name="ControllerConnected" type="Label" parent="." unique_id=455891412]
+[node name="ControllerConnected" type="Label" parent="." unique_id=778798282]
 modulate = Color(0, 1, 0, 1)
 offset_top = 16.0
 offset_right = 256.0

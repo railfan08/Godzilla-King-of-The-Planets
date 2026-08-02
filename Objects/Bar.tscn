@@ -3,45 +3,45 @@
 [ext_resource type="Texture2D" uid="uid://cdqaohmcc1tj1" path="res://Sprites/Levels/hudbar.png" id="1_b8jd6"]
 [ext_resource type="Script" uid="uid://cc2sico0wquq2" path="res://Scripts/Objects/Bar.gd" id="1_f4ary"]
 
-[node name="Bar" type="Control" unique_id=240113568]
+[node name="Bar" type="Control" unique_id=2059207617]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 80.0
 offset_bottom = 8.0
 script = ExtResource("1_f4ary")
 
-[node name="Style1" type="Control" parent="." unique_id=2133006521 groups=["bar_style"]]
+[node name="Style1" type="Control" parent="." unique_id=1864663141 groups=["bar_style"]]
 anchors_preset = 0
 offset_right = 81.0
 offset_bottom = 8.0
 
-[node name="RedBar" type="ColorRect" parent="Style1" unique_id=1438847243]
+[node name="RedBar" type="ColorRect" parent="Style1" unique_id=1831397135]
 layout_mode = 0
 offset_top = 2.0
 offset_right = 8.0
 offset_bottom = 5.0
 color = Color(0.71, 0.19, 0.125, 1)
 
-[node name="BarsOutline" type="TextureRect" parent="Style1" unique_id=2043265836]
+[node name="BarsOutline" type="TextureRect" parent="Style1" unique_id=720502272]
 layout_mode = 0
 offset_right = 9.0
 offset_bottom = 8.0
 texture = ExtResource("1_b8jd6")
 stretch_mode = 1
 
-[node name="Style2" type="Control" parent="." unique_id=2142228100 groups=["bar_style"]]
+[node name="Style2" type="Control" parent="." unique_id=307471578 groups=["bar_style"]]
 visible = false
 anchors_preset = 0
 offset_right = 80.0
 offset_bottom = 8.0
 
-[node name="BarBG" type="ColorRect" parent="Style2" unique_id=2125627865]
+[node name="BarBG" type="ColorRect" parent="Style2" unique_id=924493378]
 layout_mode = 0
 offset_top = 1.0
 offset_right = 80.0
 offset_bottom = 6.0
 
-[node name="BarColor" type="ColorRect" parent="Style2" unique_id=122456076]
+[node name="BarColor" type="ColorRect" parent="Style2" unique_id=1338171258]
 layout_mode = 0
 offset_top = 1.0
 offset_right = 80.0

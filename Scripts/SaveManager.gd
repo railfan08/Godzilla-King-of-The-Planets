@@ -18,7 +18,6 @@ func _ready() -> void:
 	
 	VideoSettings.load_video_settings(file)
 	SoundSettings.load_sound_settings(file)
-	ControlsSettings.init_controls()
 	ControlsSettings.load_mapping(file)
 	
 func _process(_delta: float) -> void:

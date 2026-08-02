@@ -21,7 +21,7 @@ func is_hurtable() -> bool:
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_th4de"]
 size = Vector2(20, 65)
 
-[node name="Boss" unique_id=906232853 instance=ExtResource("1_rvfa3")]
+[node name="Boss" unique_id=1130343365 instance=ExtResource("1_rvfa3")]
 script = ExtResource("2_skion")
 xp_amount = 100
 score_amount = 110000
@@ -39,11 +39,11 @@ texture = null
 [node name="Player" parent="." index="3" unique_id=210162875]
 position = Vector2(39, 189)
 
-[node name="Boss" type="CharacterBody2D" parent="." index="4" unique_id=217588755]
+[node name="Boss" type="CharacterBody2D" parent="." index="4" unique_id=514553197]
 position = Vector2(201, 188)
 script = SubResource("GDScript_x81a7")
 
-[node name="WalkBody" type="Sprite2D" parent="Boss" index="0" unique_id=1252699446]
+[node name="WalkBody" type="Sprite2D" parent="Boss" index="0" unique_id=771390837]
 position = Vector2(16, 9)
 texture = ExtResource("3_gl3fo")
 offset = Vector2(0.5, 0.5)
@@ -51,16 +51,16 @@ flip_h = true
 hframes = 8
 region_rect = Rect2(298, 0, 42, 37)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Boss" index="1" unique_id=840080105]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Boss" index="1" unique_id=1009701277]
 position = Vector2(0, -4.5)
 shape = SubResource("RectangleShape2D_th4de")
 
-[node name="HealthComponent" type="Node" parent="Boss" index="2" unique_id=1815270582]
+[node name="HealthComponent" type="Node" parent="Boss" index="2" unique_id=1648490244]
 script = ExtResource("7_4yohv")
 max_value = 48.0
 enemy = true
 
-[node name="PowerComponent" type="Node" parent="Boss" index="3" unique_id=984775430]
+[node name="PowerComponent" type="Node" parent="Boss" index="3" unique_id=1613568982]
 script = ExtResource("8_mt5qq")
 value = 48.0
 max_value = 48.0

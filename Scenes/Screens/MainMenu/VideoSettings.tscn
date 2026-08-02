@@ -3,10 +3,10 @@
 [ext_resource type="Script" uid="uid://clqo407mj78kq" path="res://Scripts/Screens/MainMenu/VideoSettings.gd" id="1_kbbau"]
 [ext_resource type="FontFile" uid="uid://dycfyvuoxfwc0" path="res://Sprites/font1.png" id="2_4grkj"]
 
-[node name="VideoSettings" type="Node2D" unique_id=525272393 groups=["menu"]]
+[node name="VideoSettings" type="Node2D" unique_id=1410339412 groups=["menu"]]
 script = ExtResource("1_kbbau")
 
-[node name="Resolution" type="Label" parent="." unique_id=1491016705 groups=["option"]]
+[node name="Resolution" type="Label" parent="." unique_id=991277490 groups=["option"]]
 offset_left = 72.0
 offset_top = 80.0
 offset_right = 184.0
@@ -15,7 +15,7 @@ theme_override_fonts/font = ExtResource("2_4grkj")
 text = "resolution: x1"
 uppercase = true
 
-[node name="Widescreen" type="Label" parent="." unique_id=1768934193 groups=["option"]]
+[node name="Widescreen" type="Label" parent="." unique_id=301631841 groups=["option"]]
 offset_left = 72.0
 offset_top = 104.0
 offset_right = 200.0
@@ -25,7 +25,7 @@ text = "wide screen: off"
 uppercase = true
 metadata/_edit_use_anchors_ = true
 
-[node name="Exit" type="Label" parent="." unique_id=1497957750 groups=["option"]]
+[node name="Exit" type="Label" parent="." unique_id=1844181833 groups=["option"]]
 offset_left = 72.0
 offset_top = 128.0
 offset_right = 184.0
